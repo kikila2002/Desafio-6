@@ -1,33 +1,39 @@
 .fondom {
     background-image: url(../imagenes/AQUI.jpg) ;
-    background-position: center;
+    
     section {
         div {
-            div {
+            
+            div { 
+               
                 .textol {
-                    color: yellow;
+                    width: 100%;
+                    color: black;
+                   
                 }
                 p {
                     .enlasee a {
                         color: white;
-                    }
                     
-                    .enlasee a:link {
-                        text-decoration: none;
-                        
-                    }
-                    .enlasee a:hover::after {
-                        
-                        content: '👈';
-                        margin-left: 5px;
-                        font-size: 4rem;
-                        
-                    }.enlasee a:hover::before {
-                        
-                        content: '👉';
-                        margin-left: 5px;
-                        font-size: 4rem;
-                    }
+                    
+                        &:link {
+                            text-decoration: none;
+                            
+                        }
+                        &:hover::after {
+                            
+                            content: '👈';
+                            margin-left: 5px;
+                            font-size: 4rem;
+                            
+                        }
+                        &:hover::before {
+                            
+                            content: '👉';
+                            margin-left: 5px;
+                            font-size: 4rem;
+                        }
+                    } 
                 }
             }
         }

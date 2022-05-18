@@ -5,7 +5,8 @@
 
 header nav .div-icono {
   width: 100%;
-  display: flex; }
+  display: flex;
+  background-color: #CFDBFF; }
   header nav .div-icono .icono {
     width: 80px;
     height: 80px; }
@@ -22,19 +23,42 @@ header nav .div-icono {
         justify-content: center; }
 
 .fondom {
-  background-image: url(../imagenes/AQUI.jpg);
-  background-position: center; }
+  background-image: url(../imagenes/AQUI.jpg); }
   .fondom section div div .textol {
-    color: yellow; }
+    width: 100%;
+    color: black; }
   .fondom section div div p .enlasee a {
     color: white; }
-  .fondom section div div p .enlasee a:link {
-    text-decoration: none; }
-  .fondom section div div p .enlasee a:hover::after {
-    content: '👈';
-    margin-left: 5px;
-    font-size: 4rem; }
-  .fondom section div div p .enlasee a:hover::before {
-    content: '👉';
-    margin-left: 5px;
-    font-size: 4rem; }
+    .fondom section div div p .enlasee a:link {
+      text-decoration: none; }
+    .fondom section div div p .enlasee a:hover::after {
+      content: '👈';
+      margin-left: 5px;
+      font-size: 4rem; }
+    .fondom section div div p .enlasee a:hover::before {
+      content: '👉';
+      margin-left: 5px;
+      font-size: 4rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h3 {
+  text-transform: uppercase; }
+
+a {
+  text-decoration: none; }
+
+.nombre0 {
+  color: black; }
+
+.nombre1 {
+  color: black; }
+
+.nombre2 {
+  color: pink; }
+
+.nombre3 {
+  color: pink; }
